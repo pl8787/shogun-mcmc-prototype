@@ -1,4 +1,4 @@
-from mcmc.DensitsyFunction import DensityFunction
+from distribution.DensitsyFunction import DensityFunction
 
 class TargetDistribution(DensityFunction):
     def __init__(self, dimension):

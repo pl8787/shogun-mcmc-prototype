@@ -1,5 +1,5 @@
 from abc import abstractmethod
-from mcmc.DensitsyFunction import DensityFunction
+from distribution.DensitsyFunction import DensityFunction
 
 class ProposalDistribution(DensityFunction):
     def __init__(self, dimension):
