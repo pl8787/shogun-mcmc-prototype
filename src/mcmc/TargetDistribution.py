@@ -1,6 +1,6 @@
 from mcmc.DensitsyFunction import DensityFunction
 
-class MCMCTarget(DensityFunction):
+class TargetDistribution(DensityFunction):
     def __init__(self, dimension):
         DensityFunction.__init__(self, dimension)
         

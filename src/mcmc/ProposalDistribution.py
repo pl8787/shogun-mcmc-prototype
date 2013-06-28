@@ -1,7 +1,7 @@
 from abc import abstractmethod
 from mcmc.DensitsyFunction import DensityFunction
 
-class MCMCProposalDistribution(DensityFunction):
+class ProposalDistribution(DensityFunction):
     def __init__(self, dimension):
         DensityFunction.__init__(self, dimension)
         

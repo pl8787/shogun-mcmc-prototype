@@ -1,6 +1,6 @@
 from abc import abstractmethod
 
-class MCMCSampler(object):
+class Sampler(object):
     def __init__(self, target, start):
         self.target=target
         self.current=start
