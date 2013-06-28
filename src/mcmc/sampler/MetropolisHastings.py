@@ -10,9 +10,8 @@ class MetropolisHastings(Sampler):
         start - sample object
         target - target distribution to sample from
         """
-        Sampler.__init__(target, start)
-    
-    def initialise(self):
+        Sampler.__init__(self, target, start)
+        
         self.current_log_lik = self.target.log_pdf(self.current.sample)
         self.current_proposal = self.construct_proposal(self.current.sample)
     

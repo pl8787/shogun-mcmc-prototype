@@ -1,4 +1,4 @@
-from distribution.DensitsyFunction import DensityFunction
+from distribution.DensityFunction import DensityFunction
 from numpy.lib.twodim_base import eye
 from numpy.linalg.linalg import cholesky
 from numpy.ma.core import asarray, shape, log, diag, zeros, reshape
